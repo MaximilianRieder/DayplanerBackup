@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="0dp"
+android:layout_height="match_parent"
+android:layout_weight="1"
+android:orientation="horizontal">
+
+<!-- Rectangle with background color -->
+<View
+    android:layout_width="0dp"
+    android:id="@+id/hour_sidebar_hours"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="@color/ss_background_color" />
+
+<!-- Small bottom border with color code -->
+<View
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/ss_border_color" />
+
+</LinearLayout>
+
